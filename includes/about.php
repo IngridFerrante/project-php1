@@ -1,5 +1,5 @@
 <?php include 'header.php' ?>
-
+<!-- my header included from footer page  --->
     <!--CSS style-->
     <link rel="stylesheet" href="../stylesheet.css" type="text/css">
     
@@ -11,7 +11,7 @@
 </style>
     
     <?php
-
+// Array called countries 
 $countries = array("Italy"=>"Rome", "Luxembourg"=>"Luxembourg",
 "Belgium"=> "Brussels", "Denmark"=>"Copenhagen", 
 "Finland"=>"Helsinki", "France" => "Paris", 
@@ -47,7 +47,8 @@ The financial success of the FIFA World Cup™ allows FIFA to run a wide range o
 </tr>
 
 <tr>
-<?php
+<?php // doing a loop of the array and put it in pairs (matches and capitals);
+//and print a table with the countries and the capitals stored in the array. 
 foreach($countries as $matches=> $capitals)
 {
     echo "<tr><td class='CountryCapital'>$matches</td>";
@@ -63,4 +64,5 @@ foreach($countries as $matches=> $capitals)
     
 </center>
 
+<!-- my foooter included from footer page  --->
     <?php include 'footer.php' ?>

@@ -7,11 +7,13 @@
 
     <main>
 <center>
+
+<!-- Page to buy the tickets----> 
     <H1>Tickets World Cup 2022</H1>
 <div class="container-tickets">
     <div class="row">
       <div class="column">
-        <img src="images/stadium.png" alt="Snow" style="width:100%">
+        <img src="../images/stadium.png" alt="Snow" style="width:100%">
       </div>
       <div class="column">
        <form class="form-tickets">
@@ -23,30 +25,29 @@
               <option value="Al Rayyan">Al Rayyan</option>
             </select>
             <br>
-             <label for="cars">Choose a Match:</label>
-            <select id="cars" name="cars">
-              <option value="volvo">Brazil x Germany</option>
-              <option value="saab">Argentina x Spain</option>
-              <option value="fiat">France x England</option>
-              <option value="audi">Iceland x Switzerland</option>
+             <label for="match">Choose a Match:</label>
+            <select id="match" name="match">
+              <option >Brazil x Germany</option>
+              <option >Argentina x Spain</option>
+              <option >France x England</option>
+              <option >Iceland x Switzerland</option>
             </select>
             <br>
-             <label for="cars">Choose a Category:</label>
-            <select id="cars" name="cars">
-              <option value="volvo">cat 1</option>
-              <option value="saab">cat 2</option>
-              <option value="fiat">cat 3</option>
+             <label for="category">Choose a Category:</label>
+            <select id="category" name="category">
+              <option >cat 1</option>
+              <option >cat 2</option>
+              <option >cat 3</option>
             </select>
             <br>
-             <label for="cars">How many tickets ?:</label>
-            <select id="cars" name="cars">
-              <option value="volvo">1</option>
-              <option value="saab">2</option>
-              <option value="fiat">3</option>
-              <option value="fiat">4</option>
+             <label for="tickets">How many tickets ?:</label>
+            <select id="tickets" name="tickets">
+              <option >1</option>
+              <option >2</option>
+              <option >3</option>
+              <option >4</option>
             </select>
             <br>
-           <a href="checkout.html">
              <input type="submit" value="Buy" class="btn-ticket">
           </a>
           </form>

@@ -27,7 +27,7 @@ color: white;
     
     <?php
 
-$countries = array("Italy"=>"Rome", "Luxembourg"=>"Luxembourg",
+$countries = array("Argentina"=>"Buenos Aires", "Brazil"=> "Brasilia", "Italy"=>"Rome", "Luxembourg"=>"Luxembourg",
 "Belgium"=> "Brussels", "Denmark"=>"Copenhagen", 
 "Finland"=>"Helsinki", "France" => "Paris", 
 "Slovakia"=>"Bratislava", "Slovenia"=>"Ljubljana", 
@@ -52,11 +52,14 @@ $countries = array("Italy"=>"Rome", "Luxembourg"=>"Luxembourg",
 <tr>
 
 <?php
+
+// Loop to print a table with the countries from the array in a column agains the countries of the same array
 foreach($countries as $matches=> $capitals)
 {
+    // array rand to collect random countries inside the aray
     $stageGroup = array_rand($countries);
 
-
+    // print the table country x country
     echo "<tr><td class='matchesLine'>$stageGroup </td>";
 
     echo "<td class='matchesLine'> x </td>";

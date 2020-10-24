@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../stylesheet.css" type="text/css">
 
 <footer>
-        <!-- Footer starts (Slackoverflow with modifications)-------------------------------------------------------------------------->
+        <!-- Footer starts -------------------------------------------------------------------------->
         <section class="ft-main">
           <div class="ft-main-item">
             <h2 class="ft-title">FIFA</h2>

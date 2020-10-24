@@ -42,21 +42,22 @@ body {
 
 .main-menu ul li a
 {
-  margin: 0 35px; /* espaco entre o menu */
+  margin: 0 35px; /* space between the menu */
   
   text-decoration: none;
   text-transform: uppercase;
-  color: black; /* cor do texto do menu */
+  color: black; /* text color menu */
   font-weight: bold;
 }
 
-/*Cor quando o cursor do mouse passar sobre o menu */
+
+/*Color change when the mouse cursor pass over */
 .main-menu ul li a:hover 
 {font-family: 'Piazzolla', serif;
   color: gray;
 }
 
-/* Alinhando logo ao centro */
+/* align logo to the center */
 .logo 
 {
   width: 150px;
@@ -433,11 +434,11 @@ h1{
 
 .myInformation ul li 
 {
-  margin: 0 35px; /* espaco entre o menu */
+  margin: 0 35px; /* space between the list */
   
   text-decoration: none;
   text-transform: uppercase;
-  color: white; /* cor do texto do menu */
+  color: white; /* color of the text */
   font-weight: bold;
   letter-spacing: 3px;
 }

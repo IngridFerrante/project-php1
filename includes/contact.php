@@ -1,4 +1,6 @@
 <?php include 'header.php' ?>
+<!-- my header included from footer page  --->
+
     <!--CSS style-->
     <link rel="stylesheet" href="../stylesheet.css" type="text/css">
     
@@ -37,5 +39,5 @@
 
     </main>
 
-    
+    <!-- my foooter included from footer page  --->
 <?php include 'footer.php' ?>

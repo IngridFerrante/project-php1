@@ -1,4 +1,6 @@
 <?php include 'header.php' ?>
+<!--included header on the page-->
+
     <!--CSS style-->
     <link rel="stylesheet" href="../stylesheet.css" type="text/css">
     
@@ -20,7 +22,7 @@
         Which country are you interested in?
     </h1>
 <br>
-   
+   <!--Table with flags--->
 <div class="container-flags">
 <table>
     <tr>
@@ -66,6 +68,7 @@
 <div class="seguraPiao">
 <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 <select class="dropDownForm" name="choose">
+  <!-- options oustside the array--->
     <option value="0">Choose a country</option>
     <option value="1">China</option>
     <option value="1">Peru</option>
@@ -74,30 +77,31 @@
     <option value="1">Ecquador</option>
  
     <?php
-  //Use array to create options for select field.
-  //Be sure to escape the quotes and include a line feed. 
+  // array to create options for select dropdown list.
+  // loop to show all the countries in the dropdown list
   foreach($countries as $matches=>$capital){
     echo "<option value=\"$matches\">$matches</option>\n";
     
   }
 ?>
  
-</select> 
+</select> <!---Button to submit the information chosen--->
 <input type="submit" id="btnCountry" name="submit" value="Choose">
 </form>
 
 </div>
  
 <?php
-//If form not submitted, display form.
 if(!isset($_POST['submit'])){
   //If form submitted, process input.
   }else if(isset($_REQUEST['choose']) && $_REQUEST['choose'] == '0')
+  // if user doesn't select a country give message below
   { 
       echo "<p class='userMessage'>Please select a country</p>"; 
   
   }
   else if (isset($_REQUEST['choose']) && $_REQUEST['choose'] == '1')
+  // if user choose countries oustide the array that values is equal to 1 give sad message
   {
       echo "<p class='userMessage'>Sorry this country is not in the world cup</p>";
   }
@@ -108,7 +112,7 @@ if(!isset($_POST['submit'])){
     $capitalSelected=$countries[$country];
     //Send the data back to the user.
     echo "<p class='userMessage'><b> $country </b> is in the world cup ! <br>
-    for more details about tickets find our office in <b> $capitalSelected. </b></p>"; 
+    For more details about packages of hotel + flight + tickets find our office in <b> $capitalSelected. </b></p>"; 
 
     echo '<a href="welcome.php"><input type="submit" id="btnCountry" name="checkMatches" value="Check matches"></a>';
   }
@@ -118,5 +122,5 @@ if(!isset($_POST['submit'])){
 </center>
     </main>
     
-
+<!--included footer on the page-->
     <?php include 'footer.php' ?>

@@ -15,6 +15,7 @@
 </head>
 <body>
     
+<!--HEADER PAGE------------>
     <header>
         <!-- menu bar-->
         <div class="logo"> 

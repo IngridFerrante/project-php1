@@ -1,5 +1,5 @@
 <?php include 'header.php' ?>
-
+<!-- my header included from footer page  --->
 
     <!--CSS style-->
     <link rel="stylesheet" href="../stylesheet.css" type="text/css">
@@ -12,6 +12,7 @@
 
 
 <main>
+  <!---Slides Boostrap--->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 800px; height:500px; margin: 0 auto">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -51,6 +52,7 @@
             </a>
           </div>
 <center>
+  <!-- my personal list information----->
           <div class="myInformation">
           <ul>
             <li>Ingrid Ferrante</li>

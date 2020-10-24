@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <main>
+      <!---tickets price table-------->
       <div class="price-container">
         <table class="price-table">
             <tr class="table-column">
@@ -53,7 +54,8 @@
           </table>
 
          <div>
-        <a href="shopping.html">
+           <!-- go to the shopping page to buy tickets--->
+        <a href="shopping.php">
             <input type="submit" class="btn-buy" name="area" value="Buy">
         </a>        
         </div> 
