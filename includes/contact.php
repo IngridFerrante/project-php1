@@ -1,5 +1,5 @@
 <?php include 'header.php' ?>
-<!-- my header included from footer page  --->
+<!-- my header included from header page  --->
 
     <!--CSS style-->
     <link rel="stylesheet" href="../stylesheet.css" type="text/css">
